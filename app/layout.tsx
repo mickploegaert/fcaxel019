@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Barlow, Archivo_Black } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const bodyFont = Barlow({
@@ -31,7 +32,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="nl">
-      <body className={`${bodyFont.variable} ${headingFont.variable}`}>{children}</body>
+      <body className={`${bodyFont.variable} ${headingFont.variable}`}>
+        {children}
+        <SpeedInsights />
+      </body>
     </html>
   );
 }
