@@ -680,24 +680,26 @@ main {
   .nav-links.open { display: flex; }
 
   .hero {
-    min-height: 85vh;
-    padding-top: 6rem;
+    min-height: 90vh;
+    padding-top: 8rem;
     align-items: stretch;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
   }
 
   .hero-content {
     justify-content: space-between;
     height: 100%;
     margin: 0 auto;
+    padding-bottom: 2rem;
   }
   
   .hero-top {
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
   
   .hero-middle {
     margin: auto 0;
+    padding: 2rem 0;
   }
   
   .hero-bottom {
