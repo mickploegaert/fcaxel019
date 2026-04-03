@@ -32,11 +32,11 @@ const players: Player[] = [
   { number: 5, name: "Thijmen", position: "Verdediger", goals: 12, assists: 5, image: "/assets/images/thijmen5.jpg", imagePosition: "center top" },
   { number: 6, name: "Teije", position: "Middenvelder", goals: 4, assists: 6, image: "/assets/images/teije6.jpg", imagePosition: "center top" },
   { number: 7, name: "Mick", position: "Middenvelder", goals: 2, assists: 3, image: "/assets/images/mick7.jpg", imagePosition: "center top" },
-  { number: 8, name: "Joost", position: "Middenvelder", goals: 3, assists: 4, image: "/assets/images/joost8.jpg", imagePosition: "center top" },
+  { number: 8, name: "Joost", position: "Middenvelder", goals: 3, assists: 4, image: "/assets/images/joost8.jpg", imagePosition: "center 15%" },
   { number: 9, name: "Carsten", position: "Aanvaller", goals: 8, assists: 2, image: "/assets/images/carsten9.jpg", imagePosition: "center top" },
-  { number: 10, name: "Sendrick", position: "Aanvaller", goals: 9, assists: 6, image: "/assets/images/sendrick10.jpg", imagePosition: "center top" },
-  { number: 11, name: "Tijn", position: "Aanvaller", goals: 7, assists: 4, image: "/assets/images/tijn11.jpg", imagePosition: "center top" },
-  { number: 12, name: "Micah", position: "Wissel", goals: 2, assists: 3, image: "/assets/images/micah12.jpg", imagePosition: "center top" },
+  { number: 10, name: "Sendrick", position: "Aanvaller", goals: 9, assists: 6, image: "/assets/images/sendrick10.jpg", imagePosition: "center 15%" },
+  { number: 11, name: "Tijn", position: "Aanvaller", goals: 7, assists: 4, image: "/assets/images/tijn11.jpg", imagePosition: "center 15%" },
+  { number: 12, name: "Micah", position: "Wissel", goals: 2, assists: 3, image: "/assets/images/micah12.jpg", imagePosition: "center 15%" },
   { number: 13, name: "Merijn", position: "Wissel", goals: 4, assists: 1, image: "/assets/images/merijn13.jpg", imagePosition: "center top" },
   { number: 14, name: "Ferre", position: "Wissel", goals: 3, assists: 2, image: "/assets/images/ferre14.jpg", imagePosition: "center 0%" }
 ];
