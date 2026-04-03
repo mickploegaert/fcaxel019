@@ -127,6 +127,15 @@ main {
   text-align: center;
   color: #ffffff;
   animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.hero-content p {
+  margin: 0;
 }
 
 @keyframes slideUp {
@@ -138,7 +147,6 @@ main {
   font-weight: 800;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  margin-bottom: 1.5rem;
   color: var(--brand-2);
   display: inline-block;
   background: rgba(56, 189, 248, 0.1);
@@ -151,15 +159,15 @@ main {
 .hero-content h1 {
   font-size: clamp(2.8rem, 9vw, 6.5rem);
   line-height: 1.05;
-  margin: 0 0 1.5rem 0;
+  margin: 0;
   text-shadow: 0 4px 24px rgba(0, 0, 0, 0.6);
 }
 
-.hero-content p {
+.hero-middle p {
   font-size: clamp(1.1rem, 3.5vw, 1.5rem);
   color: var(--muted);
-  margin-bottom: 3rem;
   font-weight: 400;
+  margin-top: 1.5rem;
 }
 
 .cta-primary {
@@ -671,13 +679,31 @@ main {
 
   .nav-links.open { display: flex; }
 
-  .hero { 
-    min-height: 85vh; 
-    padding-top: 10rem; 
-    align-items: flex-end; 
-    padding-bottom: 4rem; 
+  .hero {
+    min-height: 85vh;
+    padding-top: 6rem;
+    align-items: stretch;
+    padding-bottom: 3rem;
+  }
+
+  .hero-content {
+    justify-content: space-between;
+    height: 100%;
+    margin: 0 auto;
   }
   
+  .hero-top {
+    margin-top: 1rem;
+  }
+  
+  .hero-middle {
+    margin: auto 0;
+  }
+  
+  .hero-bottom {
+    margin-top: auto;
+  }
+
   .hero-overlay {
     background: linear-gradient(to bottom, rgba(3,7,18,0.2) 0%, rgba(3,7,18,0.8) 50%, rgba(3,7,18,1) 100%);
   }

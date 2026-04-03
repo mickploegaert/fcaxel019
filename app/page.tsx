@@ -37,12 +37,18 @@ export default async function HomePage() {
           <NavMenu items={navItems} />
         </div>
         <div className="hero-content">
-          <p className="eyebrow">Kampioenen 2024-2025</p>
-          <h1>FC Axel JO19-1</h1>
-          <p>Geen woorden, maar daden. Op en naast het veld.</p>
-          <a href="#selectie" className="cta-primary">
-            Bekijk Selectie
-          </a>
+          <div className="hero-top">
+            <p className="eyebrow">Kampioenen 2024-2025</p>
+          </div>
+          <div className="hero-middle">
+            <h1>FC Axel JO19-1</h1>
+            <p>Geen woorden, maar daden. Op en naast het veld.</p>
+          </div>
+          <div className="hero-bottom">
+            <a href="#selectie" className="cta-primary">
+              Bekijk Selectie
+            </a>
+          </div>
         </div>
       </header>
 
