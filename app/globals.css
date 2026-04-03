@@ -683,27 +683,37 @@ main {
     min-height: 90vh;
     padding-top: 8rem;
     align-items: stretch;
-    padding-bottom: 4rem;
+    padding-bottom: 3.5rem;
   }
 
   .hero-content {
     justify-content: space-between;
     height: 100%;
     margin: 0 auto;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
   }
   
   .hero-top {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
   }
   
   .hero-middle {
     margin: auto 0;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
   }
   
   .hero-bottom {
     margin-top: auto;
+  }
+  
+  .hero-content h1 { 
+    font-size: 2.4rem; 
+    line-height: 1.1;
+  }
+  
+  .hero-middle p {
+    font-size: 1rem;
+    margin-top: 1rem;
   }
 
   .hero-overlay {

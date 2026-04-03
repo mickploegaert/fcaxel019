@@ -28,7 +28,7 @@ const players: Player[] = [
   { number: 1, name: "Joey", position: "Keeper", goals: 1, assists: 2, image: "/assets/images/joey1.jpg", imagePosition: "center top" },
   { number: 2, name: "Pim", position: "Verdediger", goals: 2, assists: 4, image: "/assets/images/pim2.jpg", imagePosition: "center top" },
   { number: 3, name: "Loic", position: "Verdediger", goals: 1, assists: 3, image: "/assets/images/loïc10.jpg", imagePosition: "center top" },
-  { number: 4, name: "Guus", position: "Verdediger", goals: 3, assists: 1, image: "/assets/images/guus4.jpg", imagePosition: "center 30%" },
+  { number: 4, name: "Guus", position: "Verdediger", goals: 3, assists: 1, image: "/assets/images/guus4.jpg", imagePosition: "center 0%" },
   { number: 5, name: "Thijmen", position: "Verdediger", goals: 12, assists: 5, image: "/assets/images/thijmen5.jpg", imagePosition: "center top" },
   { number: 6, name: "Teije", position: "Middenvelder", goals: 4, assists: 6, image: "/assets/images/teije6.jpg", imagePosition: "center top" },
   { number: 7, name: "Mick", position: "Middenvelder", goals: 2, assists: 3, image: "/assets/images/mick7.jpg", imagePosition: "center top" },
@@ -38,7 +38,7 @@ const players: Player[] = [
   { number: 11, name: "Tijn", position: "Aanvaller", goals: 7, assists: 4, image: "/assets/images/tijn11.jpg", imagePosition: "center top" },
   { number: 12, name: "Micah", position: "Wissel", goals: 2, assists: 3, image: "/assets/images/micah12.jpg", imagePosition: "center top" },
   { number: 13, name: "Merijn", position: "Wissel", goals: 4, assists: 1, image: "/assets/images/merijn13.jpg", imagePosition: "center top" },
-  { number: 14, name: "Ferre", position: "Wissel", goals: 3, assists: 2, image: "/assets/images/ferre14.jpg", imagePosition: "center 30%" }
+  { number: 14, name: "Ferre", position: "Wissel", goals: 3, assists: 2, image: "/assets/images/ferre14.jpg", imagePosition: "center 0%" }
 ];
 
 const matches: Match[] = [
